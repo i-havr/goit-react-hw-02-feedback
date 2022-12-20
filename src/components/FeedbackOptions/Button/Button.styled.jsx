@@ -14,8 +14,11 @@ export const StyledButton = styled.button`
   background-color: #07c;
   color: #fff;
   cursor: pointer;
-  :hover,
-  :focus {
+  :hover {
     background-color: #05a;
+  }
+
+  :active {
+    background-color: orange;
   }
 `;
