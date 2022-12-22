@@ -5,9 +5,6 @@ import { FeedbackOptions } from 'components/FeedbackOptions/FeedbackOptions';
 import { StyledApp } from './App.styled';
 
 export class App extends React.Component {
-  //   static defaultProps = { initialValue: 0 };
-  //   static propTypes = {};
-
   state = {
     good: 0,
     neutral: 0,
